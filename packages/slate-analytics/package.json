@@ -1,16 +1,19 @@
 {
-  "name": "@shopify/slate-analytics",
-  "version": "1.0.0-beta.16",
+  "name": "@kittypooclub/slate-analytics",
+  "version": "1.0.2",
   "description": "Slate's analytics controller and event emitter",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/kittypooclub"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shopify/slate.git"
+    "url": "https://github.com/kittypooclub/slate.git",
+    "directory": "@kittypooclub/slate-tools"
   },
-  "author": "Shopify Inc.",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/shopify/slate/issues"
@@ -30,6 +33,5 @@
   "devDependencies": {
     "mock-fs": "^4.4.2",
     "mute-stream": "^0.0.7"
-  },
-  "trackingVersion": 1
+  }
 }
