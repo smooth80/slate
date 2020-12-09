@@ -41,9 +41,7 @@ class DevServer {
       socket: {
         domain: `https://${this.address}:${this.port}`,
       },
-      ui: {
-        port: this.uiPort,
-      },
+      open: false,
       snippetOptions: {
         rule: {
           match: /<head[^>]*>/i,
