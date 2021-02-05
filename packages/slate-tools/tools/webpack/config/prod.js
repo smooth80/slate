@@ -28,7 +28,7 @@ module.exports = merge([
   css,
   {
     mode: 'production',
-    devtool: 'hidden-source-map',
+    devtool: false,
 
     plugins: [
       new MiniCssExtractPlugin({
