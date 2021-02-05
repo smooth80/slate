@@ -1,6 +1,6 @@
 {
   "name": "@kittypooclub/slate-tools",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A modern development toolkit for Shopify themes",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/kittypooclub"
